@@ -1,11 +1,13 @@
 
 <template>
-  <main class="center mt-1">
+  <main class="center mt-2">
     
     <h1>App.vue</h1>
 
-    <OptionsApi/>
-    <CompositionApi/>
+    <section class="flex-wrap mt-2">
+      <OptionsApi/>
+      <CompositionApi/>
+    </section>
 
   </main>
 </template>

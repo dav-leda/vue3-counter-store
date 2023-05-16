@@ -12,7 +12,7 @@
   </main>
 </template>
 
-<script setup lang="ts">
+<script setup>
 
 import { computed } from 'vue'
 
@@ -21,6 +21,6 @@ import ComponenteCuatro from './ComponenteCuatro.vue'
 
 import { reactiveStore } from '../stores/reactiveStore'
 
-const double = computed<number>(() => reactiveStore.double())
+const double = computed(() => reactiveStore.double())
 
 </script>
