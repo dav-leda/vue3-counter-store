@@ -12,10 +12,13 @@
 
 <script setup lang="ts">
 
-import { toRefs } from 'vue'
+import { computed } from 'vue'
 
 import { reactiveStore } from '../stores/reactiveStore'
 
-const { counter, increment, decrement } = toRefs(reactiveStore)
+const counter = computed(() => reactiveStore.counter)
+const decrement = () => reactiveStore.decrement()
+const increment = () => reactiveStore.increment()
+
 
 </script>
