@@ -2,7 +2,7 @@
 <template>
   <main class="main max-w">
     
-    <h1>Store w/Options API</h1>
+    <h1>Store en Options API (Vue 2)</h1>
 
     <p class="bold mt-1">Doble: {{ double }}</p>
 
